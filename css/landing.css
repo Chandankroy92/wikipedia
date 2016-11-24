@@ -1,0 +1,94 @@
+body {
+	font-family: "Linux Libertine",Georgia,Times,serif;
+}
+#landing {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../images/bg1.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+#landing .navbar {
+	background-color: transparent;
+    border-color: transparent;
+    padding: 30px 0 30px 0;
+}
+#landing .search-field {
+	width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 0px 30px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+#landing .brandHeading {
+	float: right;
+    top: 9px;
+    position: relative;
+    color: #FFF;
+    font-weight: bold;
+    padding-left: 5px;
+}
+#landing .brandHeading1 {
+    font-size: 9px;
+    float: right;
+    position: relative;
+    bottom: 25px;
+    color: #a5a3a3;
+    font-family: sans-serif;
+}
+#landing .navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+
+}
+#landing .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #FFF;
+	border-bottom: 2px solid #FFF;
+}
+#landing .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+#landing .navbar-default .navbar-toggle {
+    border-color: transparent;
+    
+}
+#landing .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    /* border: none; */
+}
+#landing .navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+#landing .wiki {
+        text-align: center;
+    color: #FFF;
+    font-weight: bold;
+}
+#landing .submit {
+	position: absolute;
+    right: 30px;
+    top: 95px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #86939e;
+}
+@media only screen and (max-width: 500px) {
+    #landing .submit {
+    position: absolute;
+    right: 30px;
+    top: 68px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #86939e;
+	}
+	#landing .wiki {
+       font-size: 25px;
+}
+}
